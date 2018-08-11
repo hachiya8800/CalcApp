@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="数字を入力してね" />
+
+    <EditText
+        android:id="@+id/editNumber1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="こっちも数字を入力してね(威圧)" />
+
+    <EditText
+        android:id="@+id/editNumber2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/plus_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="足し算w"/>
+    <Button
+        android:id="@+id/minus_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="引き算w"/>
+    <Button
+        android:id="@+id/kake_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="掛け算w"/>
+    <Button
+        android:id="@+id/wari_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="割り算w"/>
+
+
+
+</LinearLayout>
